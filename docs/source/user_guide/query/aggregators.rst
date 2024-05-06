@@ -116,7 +116,7 @@ The following is a description of the aggregation functions available in OpenTSD
    :widths: 10, 10, 40, 40
    
    "avg", "1.0", "Averages the data points", "Linear Interpolation"
-   "count", "2.2", "The number of raw data points in the set", "Zero if missing"
+   "count", "2.2", "The number of raw data points in the set. Only useful for downsampling, not aggregation.", "Zero if missing"
    "dev", "1.0", "Calculates the standard deviation", "Linear Interpolation"
    "ep50r3", "2.2", "Calculates the estimated 50th percentile with the R-3 method \*", "Linear Interpolation"
    "ep50r7", "2.2", "Calculates the estimated 50th percentile with the R-7 method \*", "Linear Interpolation"
